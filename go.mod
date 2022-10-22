@@ -1,12 +1,14 @@
 module github.com/nintran52/mypetgo
 
-go 1.18
+go 1.19
 
-require github.com/spf13/cobra v1.5.0
+require (
+	github.com/labstack/echo/v4 v4.9.0
+	github.com/spf13/cobra v1.5.0
+)
 
 require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/labstack/echo/v4 v4.9.0 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
